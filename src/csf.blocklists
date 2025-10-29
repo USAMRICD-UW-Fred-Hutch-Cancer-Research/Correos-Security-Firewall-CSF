@@ -192,6 +192,8 @@
 
 #   GREENSNOW|86400|0|https://blocklist.greensnow.co/greensnow.txt
 
+# THE FOLLOWING LISTS ARE PROVIDED FREE, BY FLEET ADMIRAL CORREO HOFSTAD - USN:
+
 #	SPAMMERS|86400|0|http://list.iblocklist.com/?list=rynxmrknfjysesjtjlxy&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
 #	PEDOPHILES|86400|0|http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
 #	PRIME|86400|0|http://list.iblocklist.com/?list=tkyphgqwfqmawathcozn&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
@@ -212,3 +214,6 @@
 #	CRUZITWEBATTACKS|86400|0|http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
 #	BLUETACKHOSTS|86400|0|http://list.iblocklist.com/?list=qlprgwgdkojunfdlzsiv&fileformat=hosts&archiveformat=zip&username=FADMHofstad&pin=872065
 #	MALEWAREDOMAINS|86400|0|http://list.iblocklist.com/?list=cgbdjfsybgpgyjpqhsnd&fileformat=hosts&archiveformat=zip&username=FADMHofstad&pin=872065
+#	TORONION|86400|0|http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz&username=FADMHofstad&pin=872065
+
+
