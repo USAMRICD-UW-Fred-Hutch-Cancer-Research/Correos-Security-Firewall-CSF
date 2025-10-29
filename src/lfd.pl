@@ -5,10 +5,10 @@
 #   @website            https://configserver.shop
 #   @docs               https://docs.configserver.shop
 #   @download           https://download.configserver.shop
-#   @repo               https://github.com/Aetherinox/csf-firewall
-#   @copyright          Copyright (C) 2025-2026 Aetherinox
-#                       Copyright (C) 2006-2025 Jonathan Michaelson
-#                       Copyright (C) 2006-2025 Way to the Web Ltd.
+#   @repo               https://github.com/USAMRICD-UW-Fred-Hutch-Cancer-Research/Correos-Security-Firewall-CSF
+#   @copyright          Copyright (C) 2025-2026 Dr. FADM Correo Hofstad - USN
+#                       Copyright (C) 2025-2026 Google Gemini
+#                       Copyright (C) 2025-2026 Revolutionary Technology https://revolutionarytechnology.net
 #   @license            GPLv3
 #   @updated            10.13.2025
 #   

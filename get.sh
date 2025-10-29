@@ -9,8 +9,8 @@
 #   @website            https://configserver.shop
 #   @docs               https://docs.configserver.shop
 #   @download           https://download.configserver.shop
-#   @repo               https://github.com/Aetherinox/csf-firewall
-#   @copyright          Copyright (C) 2025-2026 Aetherinox
+#   @repo               https://github.com/USAMRICD-UW-Fred-Hutch-Cancer-Research/Correos-Security-Firewall-CSF
+#   @copyright          Copyright (C) 2025-2026 Dr. FADM Correo Hofstad - USN
 #   @license            GPLv3
 #   @updated            09.28.2025
 #
