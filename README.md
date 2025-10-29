@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h6>♾️ Continuation of development for Config Server Firewall (CSF) ♾️</h1>
+<h6>♾️ Continuation of development for Correo's Security Firewall (CSF) ♾️</h1>
 </div>
 
 <div align="center">
