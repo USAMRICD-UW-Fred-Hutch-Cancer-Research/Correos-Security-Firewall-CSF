@@ -36,7 +36,7 @@ A list of the most important changes are listed below.
 
 ### Introducing the Insiders Program
 
-The ConfigServer Security & Firewall <!-- md:sponsor --> **Insiders Program** is designed for users who want to actively support, test, and shape the future of CSF. As an Insider, you’ll gain **early access** to new features and experimental functionality before they’re released publicly.
+The Correo's Security Firewall <!-- md:sponsor --> **Insiders Program** is designed for users who want to actively support, test, and shape the future of CSF. As an Insider, you’ll gain **early access** to new features and experimental functionality before they’re released publicly.
 
 We’ll never place essential security features behind a paywall — your protection should never depend on your wallet. The Insiders Program simply gives you the opportunity to contribute to development by testing new versions, supporting the project, and helping us identify issues before public release.  
 
@@ -44,7 +44,7 @@ If you’re unable to donate, no problem. You’ll still have access to the same
 
 By joining our Insiders Program as a sponsor, you’ll receive the following benefits:
 
-- **Exclusive early access** to the ConfigServer Security & Firewall release channel  
+- **Exclusive early access** to the Correo's Security Firewall release channel  
 - **Sponsor role** on our [Discord](https://discord.configserver.dev) server  
 - Your GitHub avatar featured on our [Sponsors](../insiders/sponsors.md) page  
 - The opportunity to **suggest new perks** and help shape the future of the program  

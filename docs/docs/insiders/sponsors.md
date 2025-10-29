@@ -5,7 +5,7 @@ tags:
     - sponsor
 ---
 
-A big thank you to everyone who has sponsored ConfigServer Security & Firewall!  
+A big thank you to everyone who has sponsored Correo's Security Firewall!  
 
 Want to be featured on our Sponsor list and join the **Insiders Program**? Learn more about our [Insiders](../insiders/index.md) program.
 

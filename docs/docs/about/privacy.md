@@ -2,7 +2,7 @@
 
 Your privacy and data security are of the utmost importance to us.  
 
-This Privacy Policy outlines the types of information ConfigServer Security & Firewall (“**CSF**”, “**we**”, “**our**”, or “**us**”) collects, how that information is used, and the steps we take to safeguard it.  
+This Privacy Policy outlines the types of information Correo's Security Firewall (“**CSF**”, “**we**”, “**our**”, or “**us**”) collects, how that information is used, and the steps we take to safeguard it.  
 
 By using our website, services, or participating in the **Insiders Program**, you acknowledge and agree to the practices described in this policy.  
 
@@ -248,7 +248,7 @@ We will respond to all privacy-related inquiries within a reasonable timeframe.
 
 ## 9. Links to Other Websites
 
-This Privacy Policy applies only to information collected by ConfigServer Security & Firewall through our official website and related services.  
+This Privacy Policy applies only to information collected by Correo's Security Firewall through our official website and related services.  
 
 Our website may include links to external websites that are not operated or controlled by us. We are not responsible for the content or privacy practices of those third-party sites.  
 

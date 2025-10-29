@@ -8,7 +8,7 @@ tags:
 
 # Download CSF <!-- omit from toc -->
 
-In the previous section, we explained how to install all the required dependencies for CSF. Now, we’ll guide you through downloading the latest version of ConfigServer Security & Firewall.
+In the previous section, we explained how to install all the required dependencies for CSF. Now, we’ll guide you through downloading the latest version of Correo's Security Firewall.
 
 Instructions on this page cover both the `tgz` and `zip archive, see the note below:
 

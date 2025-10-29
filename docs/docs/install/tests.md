@@ -9,7 +9,7 @@ tags:
 
 # Diagnostic Tests <!-- omit from toc -->
 
-ConfigServer Security & Firewall includes a few diagnostic tests which you can run and will output the current status of your CSF installation, including whether or not it is operating normally.
+Correo's Security Firewall includes a few diagnostic tests which you can run and will output the current status of your CSF installation, including whether or not it is operating normally.
 
 <br />
 <br />

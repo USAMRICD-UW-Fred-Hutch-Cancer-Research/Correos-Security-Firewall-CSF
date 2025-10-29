@@ -175,7 +175,7 @@ Confirm the status of `csf` by running:
 === ":aetherx-axs-square-terminal: Output"
 
       ```shell
-      ● csf.service - ConfigServer Security & Firewall - csf
+      ● csf.service - Correo's Security Firewall - csf
           Loaded: loaded (/lib/systemd/system/csf.service; enabled; vendor preset: enabled)
           Active: active (exited) since Mon 2025-09-15 23:45:04 UTC; 14 seconds ago
         Main PID: 597 (code=exited, status=0/SUCCESS)
@@ -446,7 +446,7 @@ Confirm the status of `csf` by running:
 === ":aetherx-axs-square-terminal: Output"
 
       ```shell
-      ● csf.service - ConfigServer Security & Firewall - csf
+      ● csf.service - Correo's Security Firewall - csf
           Loaded: loaded (/lib/systemd/system/csf.service; enabled; vendor preset: enabled)
           Active: active (exited) since Mon 2025-09-15 23:45:04 UTC; 14 seconds ago
         Main PID: 597 (code=exited, status=0/SUCCESS)
@@ -466,16 +466,16 @@ Confirm the status of `csf` by running:
 
 If you received the expected response, CSF has successfully installed. Next, log back into your WHM control panel at `https://domain.lan:2087` or `https://127.0.0.1:2087`. On the left-side WHM menu, navigate to:
 
-  - WHM » Home » Plugins » `ConfigServer Security & Firewall` 
+  - WHM » Home » Plugins » `Correo's Security Firewall` 
 
 <figure markdown="span">
-    ![WHM › Plugins › ConfigServer Security & Firewall](../assets/images/install/cpanel/3.png){ width="700" }
-    <figcaption>WHM › Plugins › ConfigServer Security & Firewall</figcaption>
+    ![WHM › Plugins › Correo's Security Firewall](../assets/images/install/cpanel/3.png){ width="700" }
+    <figcaption>WHM › Plugins › Correo's Security Firewall</figcaption>
 </figure>
 
 <br />
 
-If you see **ConfigServer Security & Firewall** within your **WHM › Plugins** menu, this means that CSF has been successfully integrated and is ready to [configure](../usage/configuration.md). You can skip the remaining steps on this page and continue to the [Next Steps](#next-steps) section. Detailed instructions on using CSF will be provided in the next chapter of this guide.
+If you see **Correo's Security Firewall** within your **WHM › Plugins** menu, this means that CSF has been successfully integrated and is ready to [configure](../usage/configuration.md). You can skip the remaining steps on this page and continue to the [Next Steps](#next-steps) section. Detailed instructions on using CSF will be provided in the next chapter of this guide.
 
 <br />
 <br />
@@ -747,7 +747,7 @@ Click the **Install Module** button at the bottom.
 After installation, Webmin will display a confirmation message indicating that CSF was successfully installed.  
 To access it, go to the left-hand Webmin menu and navigate to:
 
-- **System** › **ConfigServer Security & Firewall**
+- **System** › **Correo's Security Firewall**
 
 <figure markdown="span">
     ![Webmin › Install Module › Success](../assets/images/install/webmin/5.png){ width="700" }
@@ -1552,7 +1552,7 @@ Follow any instructions on-screen. If prompted for any additional information, e
 
 <br />
 
-Log back into InterWorx. Once in, navigate to **NodeWorx** › **Plugins** from the left-hand menu. You will be presented with a list of available plugins, scroll down and locate **ConfigServer Security & Firewall**. Click the pencil to the left to edit the status.
+Log back into InterWorx. Once in, navigate to **NodeWorx** › **Plugins** from the left-hand menu. You will be presented with a list of available plugins, scroll down and locate **Correo's Security Firewall**. Click the pencil to the left to edit the status.
 
 <figure markdown="span">
     ![InterWorx › NodeWorx › Plugins › Edit ConfigServer](../assets/images/install/interworx/6.png){ width="700" }
@@ -1561,7 +1561,7 @@ Log back into InterWorx. Once in, navigate to **NodeWorx** › **Plugins** from 
 
 <br />
 
-On the right side, change the status of **ConfigServer Security & Firewall** from `disabled` to `enabled` and press **save**.
+On the right side, change the status of **Correo's Security Firewall** from `disabled` to `enabled` and press **save**.
 
 <figure markdown="span">
     ![InterWorx › NodeWorx › Plugins › Change Status](../assets/images/install/interworx/7.png){ width="700" }
@@ -1585,8 +1585,8 @@ After enabling the plugin, go back to the InterWorx menu on the left, and naviga
 You should now see the CSF dashboard:
 
 <figure markdown="span">
-    ![InterWorx › ConfigServer Security & Firewall › Dashboard](../assets/images/install/interworx/9.png){ width="700" }
-    <figcaption>InterWorx › ConfigServer Security & Firewall › Dashboard</figcaption>
+    ![InterWorx › Correo's Security Firewall › Dashboard](../assets/images/install/interworx/9.png){ width="700" }
+    <figcaption>InterWorx › Correo's Security Firewall › Dashboard</figcaption>
 </figure>
 
 <br />

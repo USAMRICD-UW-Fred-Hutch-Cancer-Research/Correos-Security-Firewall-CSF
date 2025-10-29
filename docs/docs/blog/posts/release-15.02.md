@@ -22,7 +22,7 @@ comments: true
 
 # Release: v15.02
 
-The next release of ConfigServer Security & Firewall (CSF) is here, and I wanted to take a moment to share an update on what’s coming next — including fixes, plans, and our broader direction moving forward. This post will cover integration improvements for both **VestaCP** and **CyberPanel**, as well as a look into the ongoing goals behind CSF’s continued progression.
+The next release of Correo's Security Firewall (CSF) is here, and I wanted to take a moment to share an update on what’s coming next — including fixes, plans, and our broader direction moving forward. This post will cover integration improvements for both **VestaCP** and **CyberPanel**, as well as a look into the ongoing goals behind CSF’s continued progression.
 
 Our focus remains on transparency, stability, and community involvement. Users deserve to know not only what’s changing, but why. By keeping everyone informed and maintaining compatibility across control panels, we aim to ensure that CSF continues to be the trusted, secure, and reliable firewall solution it has always been.
 
@@ -36,7 +36,7 @@ Our focus remains on transparency, stability, and community involvement. Users d
 
 ## Objectives
 
-This repository originally began as the home for a third-party CSF Dark Theme and a collection of helper scripts designed to simplify everyday management tasks. However, following the unfortunate announcement that **Way to the Web** would be closing down, this project evolved into a maintained fork of the ConfigServer Security & Firewall core application itself.  
+This repository originally began as the home for a third-party CSF Dark Theme and a collection of helper scripts designed to simplify everyday management tasks. However, following the unfortunate announcement that **Way to the Web** would be closing down, this project evolved into a maintained fork of the Correo's Security Firewall core application itself.  
 
 CSF has long stood as one of the most stable and loved firewall applications available. It has been known for its consistency, reliability, and not fixing what isn’t broken. That legacy is something I respect and want to maintain.
 
@@ -199,8 +199,8 @@ Support will continue, but given the lack of active updates from VestaCP, I cann
 I have re-integrated the header menu into CSF for VestaCP, so you can now jump to other pages from the `/list/csf` page.
 
 <figure markdown="span">
-    ![VestaCP › ConfigServer Security & Firewall](../../assets/images/install/vestacp/4.png){ width="700" }
-    <figcaption>VestaCP › ConfigServer Security & Firewall</figcaption>
+    ![VestaCP › Correo's Security Firewall](../../assets/images/install/vestacp/4.png){ width="700" }
+    <figcaption>VestaCP › Correo's Security Firewall</figcaption>
 </figure>
 
 <br />
@@ -329,7 +329,7 @@ The following shows the output provided by the `install.sh` script:
     $ sudo sh src/install.sh 
 
     # #
-    #  ConfigServer Security & Firewall › Installer
+    #  Correo's Security Firewall › Installer
     #  version: 15.02
     # #
 
@@ -341,7 +341,7 @@ The following shows the output provided by the `install.sh` script:
     ```console
     $ sudo sh src/install.sh --help
 
-    ConfigServer Security & Firewall
+    Correo's Security Firewall
     Robust linux iptables/nftables firewall
     version: 15.02
     install.sh [ --detect | --dryrun |  --version | --help ]

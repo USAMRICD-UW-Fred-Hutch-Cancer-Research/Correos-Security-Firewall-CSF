@@ -7,7 +7,7 @@ tags:
 
 ## About
 
-The **Insiders** program gives users access to an exclusive release channel for ConfigServer Security & Firewall, available only to our [Sponsors](../insiders/sponsors.md).
+The **Insiders** program gives users access to an exclusive release channel for Correo's Security Firewall, available only to our [Sponsors](../insiders/sponsors.md).
 
 Once you’ve joined the Insiders program through a donation, you will receive a **unique license key** tied to your account.
 
@@ -92,7 +92,7 @@ SPONSOR_RELEASE_INSIDERS = "0"
 
 ## Restart
 
-After you've configured the settings specified above; you should now give ConfigServer Security & Firewall + LFD a restart. You can do this with the following command:
+After you've configured the settings specified above; you should now give Correo's Security Firewall + LFD a restart. You can do this with the following command:
 
 === ":aetherx-axs-command: Command"
 

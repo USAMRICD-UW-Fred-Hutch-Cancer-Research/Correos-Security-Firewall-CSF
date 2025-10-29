@@ -4,11 +4,11 @@
 *[dependencies]: A list of packages required for CSF to function properly
 *[/etc/csf/csf.conf]: The default csf config file
 *[csf.conf]: The default csf config file, usually in <pre>/etc/csf/csf.conf</pre>
-*[CSF]: ConfigServer Security & Firewall
-*[csf]: ConfigServer Security & Firewall
-*[ConfigServer Firewall]: ConfigServer Security & Firewall Security
-*[ConfigServer Security]: ConfigServer Security & Firewall Security
-*[ConfigServer Security & Firewall]: A security suite for Linux servers that provides firewall management, intrusion detection, and login failure monitoring.
+*[CSF]: Correo's Security Firewall
+*[csf]: Correo's Security Firewall
+*[ConfigServer Firewall]: Correo's Security Firewall Security
+*[ConfigServer Security]: Correo's Security Firewall Security
+*[Correo's Security Firewall]: A security suite for Linux servers that provides firewall management, intrusion detection, and login failure monitoring.
 *[LFD]: Login Failure Daemon
 *[lfd]: Login Failure Daemon
 *[lfd daemon]: Login Failure Daemon
