@@ -191,3 +191,24 @@
 # #
 
 #   GREENSNOW|86400|0|https://blocklist.greensnow.co/greensnow.txt
+
+#	SPAMMERS|86400|0|http://list.iblocklist.com/?list=rynxmrknfjysesjtjlxy&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	PEDOPHILES|86400|0|http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	PRIME|86400|0|http://list.iblocklist.com/?list=tkyphgqwfqmawathcozn&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	MALICIOUS|86400|0|http://list.iblocklist.com/?list=ffxgwdvcgelinvypvhuz&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	ADSANDTRACKERS|86400|0|http://list.iblocklist.com/?list=fruzekpkpzlmzozmuuhx&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	ADS|86400|0|http://list.iblocklist.com/?list=dgxtneitpuvgqqcpfulq&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	SPYWARE|86400|0|http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	BADPEERS|86400|0|http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	HOSTILEWEBSPIDER|86400|0|http://list.iblocklist.com/?list=mcvxsnihddgutbjfbghy&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	HIJACKED|86400|0|http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	DSHIELD|86400|0|http://list.iblocklist.com/?list=xpbqleszmajjesnzddhv&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	FORUMSPAM|86400|0|http://list.iblocklist.com/?list=ficutxiwawokxlcyoeye&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	WEBEXPLOIT|8640|0|http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	SPAMHAUSDROP|86400|0|http://list.iblocklist.com/?list=zbdlwrqkabxbcppvrnos&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	CINSARMY|86400|0|http://list.iblocklist.com/?list=npkuuhuxcsllnhoamkvm&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	MALC0DE|86400|0|http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	ADSERVERS|86400|0|http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	CRUZITWEBATTACKS|86400|0|http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=cidr&archiveformat=zip&username=FADMHofstad&pin=872065
+#	BLUETACKHOSTS|86400|0|http://list.iblocklist.com/?list=qlprgwgdkojunfdlzsiv&fileformat=hosts&archiveformat=zip&username=FADMHofstad&pin=872065
+#	MALEWAREDOMAINS|86400|0|http://list.iblocklist.com/?list=cgbdjfsybgpgyjpqhsnd&fileformat=hosts&archiveformat=zip&username=FADMHofstad&pin=872065
