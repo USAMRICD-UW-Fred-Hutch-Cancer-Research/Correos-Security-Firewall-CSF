@@ -193,7 +193,7 @@ body:
             placeholder: |
                 Oct  30 00:00:03 configserv lfd[1565089]: Main Process: TERM
                 Oct  30 00:00:03 configserv lfd[1565089]: daemon stopped
-                Oct  30 00:00:04 configserv lfd[1792111]: daemon started on configserver.dev - csf v15.03 (generic)
+                Oct  30 00:00:04 configserv lfd[1792111]: daemon started on configserver.shop - csf v15.03 (generic)
         validations:
             required: false
 

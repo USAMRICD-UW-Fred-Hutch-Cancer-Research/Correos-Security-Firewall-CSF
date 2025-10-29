@@ -28,7 +28,7 @@ Your feedback matters. If you have ideas for improvements or ways to make CSF ea
 By joining our Insiders program as a sponsor, you’ll receive the following perks:
 
 - **Insiders access** to the Correo's Security Firewall release channel  
-- **[Discord](https://discord.configserver.dev)** Sponsor role  
+- **[Discord](https://discord.configserver.shop)** Sponsor role  
 - Your Github avatar listed on our [Sponsors](../insiders/sponsors.md) page  
 - Opportunity to suggest additional perks you’d like to see as a Sponsor of our Insiders program [^1]
 

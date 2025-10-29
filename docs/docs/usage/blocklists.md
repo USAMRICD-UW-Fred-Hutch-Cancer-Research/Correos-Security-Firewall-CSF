@@ -127,8 +127,8 @@ By default, every blocklist is commented out with a ++"#"++ symbol at the beginn
 #   different services, including AbuseIPDB (100% confidency).
 #   
 #   You can also use our blocklist service:
-#       https://blocklist.configserver.dev/master.ipset
-#       https://blocklist.configserver.dev/highrisk.ipset
+#       https://blocklist.configserver.shop/master.ipset
+#       https://blocklist.configserver.shop/highrisk.ipset
 #   
 #   We offer many others, but these two are the primary ones.
 #   
@@ -136,8 +136,8 @@ By default, every blocklist is commented out with a ++"#"++ symbol at the beginn
 #       LF_IPSET_MAXELEM = "500000"
 # #
 
-#   CSF_MASTER      | 43200 | 0 | https://blocklist.configserver.dev/master.ipset
-#   CSF_HIGHRISK    | 43200 | 0 | https://blocklist.configserver.dev/highrisk.ipset
+#   CSF_MASTER      | 43200 | 0 | https://blocklist.configserver.shop/master.ipset
+#   CSF_HIGHRISK    | 43200 | 0 | https://blocklist.configserver.shop/highrisk.ipset
 
 # #
 #   @blocklist              Spamhaus Don't Route Or Peer List (DROP)
@@ -273,7 +273,7 @@ We will use the first blocklist in the example above to explain the format.
 # #
 
 SPAMDROP      |   86400   |      0      |  https://spamhaus.org/drop/drop.txt
-CSF_HIGHRISK  |   43200   |      0      |  https://blocklist.configserver.dev/highrisk.ipset
+CSF_HIGHRISK  |   43200   |      0      |  https://blocklist.configserver.shop/highrisk.ipset
 DSHIELD       |   86400   |      0      |  https://dshield.org/block.txt
 ----------------------------------------------------------------------------------------------------------------------------------
     ^NAME^     ^INTERVAL^  ^MAX_ENTRIES^              ^BLOCKLIST_URL^              
@@ -321,7 +321,7 @@ These lists are refreshed approximately every `12 hours` to ensure up-to-date pr
 
 <br />
 
-While we provide a wide selection of blocklists, most users will find that the [master.ipset](https://blocklist.configserver.dev/master.ipset) and [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset) lists are more than enough to maintain strong security. These lists include extensive collections of high-confidence IPs (100% confidence level), minimizing the risk of false positives.
+While we provide a wide selection of blocklists, most users will find that the [master.ipset](https://blocklist.configserver.shop/master.ipset) and [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset) lists are more than enough to maintain strong security. These lists include extensive collections of high-confidence IPs (100% confidence level), minimizing the risk of false positives.
 
 In addition to the primary lists, the CSF repository also offers specialized blocklists for categories like privacy, spam, and geographic restrictions. These allow you to further tailor your firewall rules, such as blocking traffic from specific countries.
 
@@ -337,8 +337,8 @@ The main blocklists come pre-configured in your `/etc/csf/csf.blocklists` file. 
 #   different services, including AbuseIPDB (100% confidency).
 #   
 #   You can also use our blocklist service:
-#       https://blocklist.configserver.dev/master.ipset
-#       https://blocklist.configserver.dev/highrisk.ipset
+#       https://blocklist.configserver.shop/master.ipset
+#       https://blocklist.configserver.shop/highrisk.ipset
 #   
 #   We offer many others, but these two are the primary ones.
 #   
@@ -346,15 +346,15 @@ The main blocklists come pre-configured in your `/etc/csf/csf.blocklists` file. 
 #       LF_IPSET_MAXELEM = "500000"
 # #
 
-CSF_MASTER   | 43200 | 0 | https://blocklist.configserver.dev/master.ipset
-CSF_HIGHRISK | 43200 | 0 | https://blocklist.configserver.dev/highrisk.ipset
+CSF_MASTER   | 43200 | 0 | https://blocklist.configserver.shop/master.ipset
+CSF_HIGHRISK | 43200 | 0 | https://blocklist.configserver.shop/highrisk.ipset
 ```
 
 <br />
 
 ??? danger "Using the `master.ipset` blocklist without enabling IPSET can cause server instability & increased memory usage"
 
-    The official [master.ipset](https://blocklist.configserver.dev/master.ipset) blocklist contains millions of IP addresses. 
+    The official [master.ipset](https://blocklist.configserver.shop/master.ipset) blocklist contains millions of IP addresses. 
 
     We strongly recommend [enabling IPSET](#enable) before using this list. Without IPSET, CSF will create a separate iptables rule for every IP, which will dramatically increase memory usage and slow down firewall operations.
 
@@ -362,7 +362,7 @@ CSF_HIGHRISK | 43200 | 0 | https://blocklist.configserver.dev/highrisk.ipset
 
 <br />
 
-Adding our [master.ipset](https://blocklist.configserver.dev/master.ipset) and [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset) blocklists from above will give you the entire collection for each main blocklist and will offer great protection. All that is needed is to restart CSF to ensure that the blocklists take affect:
+Adding our [master.ipset](https://blocklist.configserver.shop/master.ipset) and [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset) blocklists from above will give you the entire collection for each main blocklist and will offer great protection. All that is needed is to restart CSF to ensure that the blocklists take affect:
 
 === ":aetherx-axd-command: Command"
 
@@ -436,9 +436,9 @@ Now that you have our official blocklists defined in ++"/etc/csf/csf.blocklists"
 
 ??? warning "Official master blocklist requires increased ++"LF_IPSET_MAXELEM"++"
 
-    If you plan to use our official blocklist, [master.ipset](https://blocklist.configserver.dev/master.ipset), you **must** increase the ++"LF_IPSET_MAXELEM"++ setting in ++"/etc/csf/csf.conf"++. 
+    If you plan to use our official blocklist, [master.ipset](https://blocklist.configserver.shop/master.ipset), you **must** increase the ++"LF_IPSET_MAXELEM"++ setting in ++"/etc/csf/csf.conf"++. 
     
-    The [master.ipset](https://blocklist.configserver.dev/master.ipset) file currently contains approximately 350,000 entries. To allow for future updates and ensure safe operation, set ++"LF_IPSET_MAXELEM"++ to around ++"500000"++.
+    The [master.ipset](https://blocklist.configserver.shop/master.ipset) file currently contains approximately 350,000 entries. To allow for future updates and ensure safe operation, set ++"LF_IPSET_MAXELEM"++ to around ++"500000"++.
 
     Instructions for doing this are available in the next section [Increase Max Limit](#increase-maximum-entry-limit).
 
@@ -450,7 +450,7 @@ Now that you have our official blocklists defined in ++"/etc/csf/csf.blocklists"
 
 ## Large Blocklists and IPSET
 
-When using large blocklists _(more than a few thousand entries in a list)_, such as our officially maintained [master.ipset](https://blocklist.configserver.dev/master.ipset), it is strongly recommended to enable ++"IPSET"++.
+When using large blocklists _(more than a few thousand entries in a list)_, such as our officially maintained [master.ipset](https://blocklist.configserver.shop/master.ipset), it is strongly recommended to enable ++"IPSET"++.
 
 As described in the [How Blocklists Work](#how-blocklists-work) section, blocklists can be handled in **two ways**:
 
@@ -512,9 +512,9 @@ This will enable IPSET support on your server. However, there is one final setti
 
 The setting ++"LF_IPSET_MAXELEM"++ defines how many entries are loaded within a blocklist. This is an important part of enabling large blocklists that contain tens of thousands of entries 
 
-If you have decided to use CSF's official blocklists [master.ipset](https://blocklist.configserver.dev/master.ipset) and [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset); this setting is **required** to be set according to how large the lists are.
+If you have decided to use CSF's official blocklists [master.ipset](https://blocklist.configserver.shop/master.ipset) and [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset); this setting is **required** to be set according to how large the lists are.
 
-On average, our [master.ipset](https://blocklist.configserver.dev/master.ipset) blocklist contains approximately ++"350,000"++ entries. While our [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset) list contains approximately ++"10,000"++.
+On average, our [master.ipset](https://blocklist.configserver.shop/master.ipset) blocklist contains approximately ++"350,000"++ entries. While our [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset) list contains approximately ++"10,000"++.
 
 To support a blocklist this large, we must modify ++"LF_IPSET_MAXELEM"++ to a high enough value to support this, and also give us room in case the list grows larger in the future. We'll use the value ++"500,000"++ for this example.
 
@@ -534,15 +534,15 @@ Open ++"/etc/csf/csf.conf"++ and change the following:
 
 <br />
 
-By setting ++"/etc/csf/csf.conf"++ to ++"500000"++, this gives us enough to support our biggest blocklist [master.ipset](https://blocklist.configserver.dev/master.ipset) and its 350,000 entries, but also give us a buffer of 150,000 for future growth.
+By setting ++"/etc/csf/csf.conf"++ to ++"500000"++, this gives us enough to support our biggest blocklist [master.ipset](https://blocklist.configserver.shop/master.ipset) and its 350,000 entries, but also give us a buffer of 150,000 for future growth.
 
 <br />
 
 Also confirm that you have the blocklists themselves set to a value such as ++0++ within ++"/etc/csf/csf.blocklists"++ if you do not wish to limit the number of entries:
 
 ```shell
-CSF_MASTER   | 43200 | 0 | https://blocklist.configserver.dev/master.ipset
-CSF_HIGHRISK | 43200 | 0 | https://blocklist.configserver.dev/highrisk.ipset
+CSF_MASTER   | 43200 | 0 | https://blocklist.configserver.shop/master.ipset
+CSF_HIGHRISK | 43200 | 0 | https://blocklist.configserver.shop/highrisk.ipset
 ```
 
 <br />

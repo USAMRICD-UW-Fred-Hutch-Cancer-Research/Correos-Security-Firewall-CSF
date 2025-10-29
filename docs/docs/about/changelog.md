@@ -80,7 +80,7 @@ tags:
 - `feat`: Configuration files now include headers visible in the GUI for easier file identification; called with `HEADER:`
 - `feat`: New codename detection helper func for conditional statements depending on the installer used by end-user
 - `feat`: Added an official help page to the download service
-    - https://download.configserver.dev/help
+    - https://download.configserver.shop/help
 - `feat`: Implemented Light/Dark mode toggle in the footer for better theme control
 - `feat`: Added optional `Content Security Policy (CSP)` protection to web interface
     - New **csf.conf** settings:
@@ -111,9 +111,9 @@ tags:
 
 ### <!-- md:version stable- --> 15.01 <small>Oct 06 2025</small> { id="15.01" }
 
-- `feat`: Register new domain https://configserver.dev
-- `feat`: New blocklist service at https://blocklist.configserver.dev
-- `chore`: Bring new update server online at https://download.configserver.dev
+- `feat`: Register new domain https://configserver.shop
+- `feat`: New blocklist service at https://blocklist.configserver.shop
+- `chore`: Bring new update server online at https://download.configserver.shop
 - `refactor`: Changed csf update server code to point to new csf domain
 - `fix`: Invalid sessions still being able to access backend web interface assets
 

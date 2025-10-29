@@ -32,7 +32,7 @@ To disable access to the Insiders release channel, change the setting to ++0++ a
 #       https://github.com/Aetherinox/csf-firewall
 #   
 #   You can also ask general questions on our Discord server:
-#       https://discord.configserver.dev
+#       https://discord.configserver.shop
 #   
 #   Restart CSF + LFD after setting these:
 #       sudo csf -ra

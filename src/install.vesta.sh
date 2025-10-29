@@ -1,10 +1,10 @@
 #!/bin/sh
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -789,7 +789,7 @@ prinp "${APP_NAME_SHORT:-CSF} > Installation Complete" \
        "Your installation is complete. Read important notes below."
 
 print "    For more information on how to use ${APP_NAME_SHORT:-CSF}; visit"
-print "        ${yellowd}${APP_LINK_DOCS:-https://docs.configserver.dev}"
+print "        ${yellowd}${APP_LINK_DOCS:-https://docs.configserver.shop}"
 if [ -f "$CSF_CONF" ]; then
 	print "    "
 	print "    The next step in the process should be to open the config file located at"

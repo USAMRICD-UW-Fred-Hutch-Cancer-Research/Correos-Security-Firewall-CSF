@@ -213,12 +213,12 @@ By default, this value is set to ++"65536"++ (approximately sixty-five thousand 
 
 To determine the best value for your system, review the blocklists you plan to enable. In this example, we’ll reference our in-house blocklists:
 
-- [master.ipset](https://blocklist.configserver.dev/master.ipset) ++"approximately 350,000 entries"++
-- [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset) ++"approximately 10,000 entries"++
+- [master.ipset](https://blocklist.configserver.shop/master.ipset) ++"approximately 350,000 entries"++
+- [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset) ++"approximately 10,000 entries"++
 
 <br />
 
-The [master.ipset](https://blocklist.configserver.dev/master.ipset) blocklist contains roughly **350,000** entries, while [highrisk.ipset](https://blocklist.configserver.dev/highrisk.ipset) contains around **10,000**.
+The [master.ipset](https://blocklist.configserver.shop/master.ipset) blocklist contains roughly **350,000** entries, while [highrisk.ipset](https://blocklist.configserver.shop/highrisk.ipset) contains around **10,000**.
 
 Since ++"LF_IPSET_MAXELEM"++ applies to each IPSET individually, you should base your configuration on the **largest blocklist** you intend to use.
 
@@ -226,7 +226,7 @@ For example, because ++"master.ipset"++ has about **350,000** entries, that beco
 
 In this case, we’ll set the value to ++"500,000"++ — allowing room for future expansion.
 
-- **350,000** entries ++equal++ [master.ipset](https://blocklist.configserver.dev/master.ipset) (largest blocklist)  
+- **350,000** entries ++equal++ [master.ipset](https://blocklist.configserver.shop/master.ipset) (largest blocklist)  
 - **150,000** entry buffer ++equal++ for list growth and flexibility
 
 <br />
@@ -890,7 +890,7 @@ The following are a list of common issues or errors, and potential solutions for
 When you enable a blocklist for the first, it must be defined within `/etc/csf/csf.blocklists` as the following:
 
 ```shell title="/etc/csf/csf.blocklists"
-CSF_HIGHRISK|43200|0|https://blocklist.configserver.dev/highrisk.ipset
+CSF_HIGHRISK|43200|0|https://blocklist.configserver.shop/highrisk.ipset
 ```
 
 <br />
@@ -902,7 +902,7 @@ In the example above:
 | `CSF_HIGHRISK`                                            | Name of the blocklist                                                                   |
 | `43200`                                                   | Blocklist cache time. List will not be refreshed until this time expires.               |
 | `0`                                                       | Max IPs to load in a blocklist; ++0++ is **unlimited**                                  |
-| `https://blocklist.configserver.dev/highrisk.ipset`       | Blocklist to load                                                                       |
+| `https://blocklist.configserver.shop/highrisk.ipset`       | Blocklist to load                                                                       |
 
 <br />
 

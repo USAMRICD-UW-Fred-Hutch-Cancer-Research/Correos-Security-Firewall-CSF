@@ -37,30 +37,30 @@ Download the latest version of CSF. Two methods are provided below, and you can 
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: Direct Download (zip)"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 === ":aetherx-axs-box: Get.sh"
 
     ```shell
     # Using wget
-    bash <(wget -qO - https://get.configserver.dev)
+    bash <(wget -qO - https://get.configserver.shop)
 
     # Using curl
-    bash <(curl -sL https://get.configserver.dev)
+    bash <(curl -sL https://get.configserver.shop)
     ```
 
 <br />
@@ -144,30 +144,30 @@ Download the latest version of CSF. Two methods are provided below, and you can 
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: Direct Download (zip)"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 === ":aetherx-axs-box: Get.sh"
 
     ```shell
     # Using wget
-    bash <(wget -qO - https://get.configserver.dev)
+    bash <(wget -qO - https://get.configserver.shop)
 
     # Using curl
-    bash <(curl -sL https://get.configserver.dev)
+    bash <(curl -sL https://get.configserver.shop)
     ```
 
 <br />

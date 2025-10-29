@@ -45,7 +45,7 @@ If you’re unable to donate, no problem. You’ll still have access to the same
 By joining our Insiders Program as a sponsor, you’ll receive the following benefits:
 
 - **Exclusive early access** to the Correo's Security Firewall release channel  
-- **Sponsor role** on our [Discord](https://discord.configserver.dev) server  
+- **Sponsor role** on our [Discord](https://discord.configserver.shop) server  
 - Your GitHub avatar featured on our [Sponsors](../insiders/sponsors.md) page  
 - The opportunity to **suggest new perks** and help shape the future of the program  
 
@@ -60,7 +60,7 @@ We have launched a Discord server for users who wish to sit back and communicate
 
 <div class="valign-buttons" markdown>
 
-[![View](https://img.shields.io/discord/1428601317361848412?style=for-the-badge&color=de1f68)](https://discord.configserver.dev)[![View](https://img.shields.io/badge/Join%20Discord-2d5e97?style=for-the-badge&logo=discord&logoColor=FFFFFF)](https://discord.configserver.dev)
+[![View](https://img.shields.io/discord/1428601317361848412?style=for-the-badge&color=de1f68)](https://discord.configserver.shop)[![View](https://img.shields.io/badge/Join%20Discord-2d5e97?style=for-the-badge&logo=discord&logoColor=FFFFFF)](https://discord.configserver.shop)
 
 </div>
 
@@ -110,7 +110,7 @@ A bug has been resolved that previously caused IPSet-based blocklists to fail lo
 For example, the following style would previously break IPSet loading:
 
 ```ini
-CSF_HIGHRISK        |43200      | 5 |   http://blocklist.configserver.dev/highrisk.ipset
+CSF_HIGHRISK        |43200      | 5 |   http://blocklist.configserver.shop/highrisk.ipset
 ```
 
 <br />
@@ -118,8 +118,8 @@ CSF_HIGHRISK        |43200      | 5 |   http://blocklist.configserver.dev/highri
 Many users prefer to align entries for clarity, such as:
 
 ```ini
-CSF_MASTER      | 43200 | 0 | http://blocklist.configserver.dev/master.ipset
-CSF_HIGHRISK    | 43200 | 5 | http://blocklist.configserver.dev/highrisk.ipset
+CSF_MASTER      | 43200 | 0 | http://blocklist.configserver.shop/master.ipset
+CSF_HIGHRISK    | 43200 | 5 | http://blocklist.configserver.shop/highrisk.ipset
 ```
 
 <br />
@@ -135,7 +135,7 @@ We’ve introduced a new [Privacy Policy](../../about/privacy.md) that clearly e
 
 We remain committed to collecting **only what’s necessary** — nothing more. Here’s how we protect your privacy:
 
-- We **do not** log IP addresses, geographic data, or any other identifying metadata when you access our services, such as [download.configserver.dev](https://download.configserver.dev) or [blocklist.configserver.dev](https://blocklist.configserver.dev).  
+- We **do not** log IP addresses, geographic data, or any other identifying metadata when you access our services, such as [download.configserver.shop](https://download.configserver.shop) or [blocklist.configserver.shop](https://blocklist.configserver.shop).  
 - We **do not** route or proxy connections from servers running CSF through our infrastructure. Even if our servers were to go offline, your server would continue to operate without interruption.  
 - We **do not** store donation or payment information on our servers. All transactions are securely handled by trusted third parties like [GitHub Sponsors](https://github.com/sponsors/Aetherinox) and [BuyMeACoffee](https://buymeacoffee.com/aetherinox). We only use their REST APIs to verify Insiders status linked to your license key.  
 - We **do not** use analytics cookies or tracking scripts in your browser when visiting any of our services.

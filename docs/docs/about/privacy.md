@@ -24,9 +24,9 @@ Outlines what information is **NOT** collected by us on our website:
 
 CSF does **not** collect, log, or retain any information such as IP addresses, payment details, geographic data, device identifiers, or any other personally identifiable information (PII) from users who visit or interact with:
 
-- The main domain: [https://configserver.dev](https://configserver.dev)  
-- The download service: [https://download.configserver.dev](https://download.configserver.dev)  
-- The blocklist service: [https://blocklist.configserver.dev](https://blocklist.configserver.dev)
+- The main domain: [https://configserver.shop](https://configserver.shop)  
+- The download service: [https://download.configserver.shop](https://download.configserver.shop)  
+- The blocklist service: [https://blocklist.configserver.shop](https://blocklist.configserver.shop)
 
 <br />
 
@@ -47,7 +47,7 @@ The CSF application does **not** transmit or collect any personal or server-rela
 
 ### Payment Processors
 
-When you sponsor CSF or join the [Insiders](https://docs.configserver.dev/insiders) program, all payment processing is handled securely by trusted third-party services such as [GitHub Sponsors](https://github.com/sponsors/Aetherinox) and [BuyMeACoffee](https://buymeacoffee.com/aetherinox).  
+When you sponsor CSF or join the [Insiders](https://docs.configserver.shop/insiders) program, all payment processing is handled securely by trusted third-party services such as [GitHub Sponsors](https://github.com/sponsors/Aetherinox) and [BuyMeACoffee](https://buymeacoffee.com/aetherinox).  
 
 We do **not** handle or store any sensitive payment information ourselves.
 
@@ -66,13 +66,13 @@ We do **not** handle or store any sensitive payment information ourselves.
 
 ## 2. Information We Collect and Retain
 
-When visiting our [documentation site](https://docs.configserver.dev) or participating in our **[Insiders Program](https://docs.configserver.dev/insiders)**, certain information may be collected under limited and clearly defined circumstances.
+When visiting our [documentation site](https://docs.configserver.shop) or participating in our **[Insiders Program](https://docs.configserver.shop/insiders)**, certain information may be collected under limited and clearly defined circumstances.
 
 <br />
 
 ### A. Domain
 
-Our main domain https://configserver.dev and its subdomains do **not** actively collect, store, or track any personal information from visitors.  
+Our main domain https://configserver.shop and its subdomains do **not** actively collect, store, or track any personal information from visitors.  
 
 However, we do use the third-party service [Cloudflare](https://cloudflare.com) to improve performance and security. Cloudflare may collect certain information about visitors to our site. This data is managed entirely by Cloudflare, and we do not have access to or control over it. 
 
@@ -82,7 +82,7 @@ For information on what Cloudflare collects and how it is used, please refer to 
 
 ### B. Documentation Subdomain
 
-Our [documentation](https://docs.configserver.dev) subdomain uses a third-party framework called [**MkDocs**](https://mkdocs.org/), along with the **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** theme, which may store local cookies in your browser.  
+Our [documentation](https://docs.configserver.shop) subdomain uses a third-party framework called [**MkDocs**](https://mkdocs.org/), along with the **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** theme, which may store local cookies in your browser.  
 
 When you first visit our documentation site, MkDocs will prompt you to **consent to cookies** before any optional or analytics-related cookies are set [^1]. This ensures compliance with data privacy regulations such as the GDPR.  
 
@@ -99,14 +99,14 @@ We do **not** use cookies for advertising, behavioral tracking, or any form of u
 
 ### C. Insiders Program
 
-When you join the **[Insiders Program](https://docs.configserver.dev/insiders)**, limited personal information is collected to manage and verify your membership and licensing status.
+When you join the **[Insiders Program](https://docs.configserver.shop/insiders)**, limited personal information is collected to manage and verify your membership and licensing status.
 
-Depending on the payment processor you use to sign up for our [Insiders Program](https://docs.configserver.dev/insiders) or to become a [sponsor](https://docs.configserver.dev/insiders/sponsors/), we may collect:
+Depending on the payment processor you use to sign up for our [Insiders Program](https://docs.configserver.shop/insiders) or to become a [sponsor](https://docs.configserver.shop/insiders/sponsors/), we may collect:
 
 - Your **GitHub** or **BuyMeACoffee username**
-    - Used to publically broadcast sponsors on our [Sponsors](https://docs.configserver.dev/insiders/sponsors/) page
+    - Used to publically broadcast sponsors on our [Sponsors](https://docs.configserver.shop/insiders/sponsors/) page
 - Your **Discord user ID**
-    - Used give Insiders special perks and a role on our [Discord](https://discord.configserver.dev) server
+    - Used give Insiders special perks and a role on our [Discord](https://discord.configserver.shop) server
 - Your **email address** (if provided during signup or donation)
     - Used as a backup communication method
 - The **timestamp** your sponsorship began
@@ -235,7 +235,7 @@ We encourage all users to review this policy regularly to stay informed about ho
 
 If you have questions about this Privacy Policy, data handling, or wish to request access or deletion of your information, you may contact us via:
 
-- Our official website: [https://configserver.dev](https://configserver.dev)  
+- Our official website: [https://configserver.shop](https://configserver.shop)  
 - Our GitHub repository: [https://github.com/Aetherinox/csf-firewall](https://github.com/Aetherinox/csf-firewall)
 
 We will respond to all privacy-related inquiries within a reasonable timeframe.

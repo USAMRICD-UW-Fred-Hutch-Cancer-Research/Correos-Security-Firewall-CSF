@@ -1,14 +1,14 @@
 ---
-title: Advanced › Services › get.configserver.dev
+title: Advanced › Services › get.configserver.shop
 tags:
   - services
   - get.sh
-  - get.configserver.dev
+  - get.configserver.shop
 ---
 
-# get.configserver.dev <!-- omit from toc -->
+# get.configserver.shop <!-- omit from toc -->
 
-The subdomain [get.configserver.dev](https://get.configserver.dev) provides a simple online service for downloading the latest version of CSF using a Bash script.  
+The subdomain [get.configserver.shop](https://get.configserver.shop) provides a simple online service for downloading the latest version of CSF using a Bash script.  
 
 By default, running the script downloads the latest CSF release to the current directory. Optional arguments allow you to extend its functionality, including automatically extracting the archive and installing CSF immediately after download.
 
@@ -24,7 +24,7 @@ By default, running the script downloads the latest CSF release to the current d
 
 ## Usage
 
-This section explains how the [get.sh](https://get.configserver.dev) script can be utilized when obtaining the latest version of CSF from our servers.
+This section explains how the [get.sh](https://get.configserver.shop) script can be utilized when obtaining the latest version of CSF from our servers.
 
 ### Examples
 
@@ -32,20 +32,20 @@ This section explains how the [get.sh](https://get.configserver.dev) script can 
 
 | Command                                                                                       | Description                                                                                           |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `bash <(wget -qO - https://get.configserver.dev)`                                             | Download CSF w/ filename `csf.zip` or `csf.tgz`                                                      |
-| `bash <(wget -qO - https://get.configserver.dev) --preserve-name`                             | Download CSF w/ filename `csf-firewall-vXX.XX.zip` or `csf-firewall-vXX.XX.tgz`                      |
-| `bash <(wget -qO - https://get.configserver.dev) --extract`                                   | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`                                    |
-| `bash <(wget -qO - https://get.configserver.dev) --extract --folder csftest`                  | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`                                |
-| `bash <(wget -qO - https://get.configserver.dev) --install`                                   | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`, install CSF                       |
-| `bash <(wget -qO - https://get.configserver.dev) --install --folder csftest`                  | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`, install CSF                   |
-| `bash <(wget -qO - https://get.configserver.dev) --install --dryrun`                          | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`, simulate install CSF              |
-| `bash <(wget -qO - https://get.configserver.dev) --install --folder csftest --dryrun`         | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`, simulate install CSF          |
-| `bash <(wget -qO - https://get.configserver.dev) --install-only`                              | No download, install existing local folder `csf`                                               |
-| `bash <(wget -qO - https://get.configserver.dev) --install-only --folder csftest`             | No download, install existing local folder `csftest`                                           |
-| `bash <(wget -qO - https://get.configserver.dev) --install-only --dryrun`                     | No download, simulate install existing local folder `csf`                                      |
-| `bash <(wget -qO - https://get.configserver.dev) --install-only --folder csftest --dryrun`    | No download, simulate install existing local folder `csftest`                                  |
-| `bash <(wget -qO - https://get.configserver.dev) --clean`                                     | Delete existing `csf.zip` or `csf.tgz`, remove folder `csf`                            |
-| `bash <(wget -qO - https://get.configserver.dev) --clean --folder csftest`                    | Delete existing `csf.zip` or `csf.tgz`, remove folder `csftest`                        |
+| `bash <(wget -qO - https://get.configserver.shop)`                                             | Download CSF w/ filename `csf.zip` or `csf.tgz`                                                      |
+| `bash <(wget -qO - https://get.configserver.shop) --preserve-name`                             | Download CSF w/ filename `csf-firewall-vXX.XX.zip` or `csf-firewall-vXX.XX.tgz`                      |
+| `bash <(wget -qO - https://get.configserver.shop) --extract`                                   | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`                                    |
+| `bash <(wget -qO - https://get.configserver.shop) --extract --folder csftest`                  | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`                                |
+| `bash <(wget -qO - https://get.configserver.shop) --install`                                   | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`, install CSF                       |
+| `bash <(wget -qO - https://get.configserver.shop) --install --folder csftest`                  | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`, install CSF                   |
+| `bash <(wget -qO - https://get.configserver.shop) --install --dryrun`                          | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csf`, simulate install CSF              |
+| `bash <(wget -qO - https://get.configserver.shop) --install --folder csftest --dryrun`         | Download CSF w/ filename `csf.zip` or `csf.tgz`, extract to `csftest`, simulate install CSF          |
+| `bash <(wget -qO - https://get.configserver.shop) --install-only`                              | No download, install existing local folder `csf`                                               |
+| `bash <(wget -qO - https://get.configserver.shop) --install-only --folder csftest`             | No download, install existing local folder `csftest`                                           |
+| `bash <(wget -qO - https://get.configserver.shop) --install-only --dryrun`                     | No download, simulate install existing local folder `csf`                                      |
+| `bash <(wget -qO - https://get.configserver.shop) --install-only --folder csftest --dryrun`    | No download, simulate install existing local folder `csftest`                                  |
+| `bash <(wget -qO - https://get.configserver.shop) --clean`                                     | Delete existing `csf.zip` or `csf.tgz`, remove folder `csf`                            |
+| `bash <(wget -qO - https://get.configserver.shop) --clean --folder csftest`                    | Delete existing `csf.zip` or `csf.tgz`, remove folder `csftest`                        |
 
 </div>
 
@@ -58,13 +58,13 @@ The command below will download the latest version of CSF and place the archive 
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev)
+    bash <(wget -qO - https://get.configserver.shop)
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)
+    bash <(curl -sL https://get.configserver.shop)
     ```
 
 <br />
@@ -72,7 +72,7 @@ The command below will download the latest version of CSF and place the archive 
 
 ### Advanced
 
-The [get.sh](https://get.configserver.dev) script has additional arguments that you can pass which expands on its functionality. 
+The [get.sh](https://get.configserver.shop) script has additional arguments that you can pass which expands on its functionality. 
 
 
 <br />
@@ -84,13 +84,13 @@ To download the latest version of CSF and do nothing else; pass no arguments.
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev)
+    bash <(wget -qO - https://get.configserver.shop)
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)
+    bash <(curl -sL https://get.configserver.shop)
     ```
 
 <br />
@@ -104,13 +104,13 @@ Downloads the latest version of CSF to your local machine as the file `csf.zip` 
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --extract
+    bash <(wget -qO - https://get.configserver.shop) --extract
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --extract
+    bash <(curl -sL https://get.configserver.shop)  --extract
     ```
 
 <br />
@@ -120,7 +120,7 @@ Out of box, this script extracts CSF to the folder :aetherx-axd-folder: `csf`; y
 === ":aetherx-axs-command: Command"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --extract --folder csf-folder
+    bash <(wget -qO - https://get.configserver.shop) --extract --folder csf-folder
     ```
 
 <br />
@@ -134,13 +134,13 @@ Downloads the latest version of CSF to your local machine as the file `csf.zip` 
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install
+    bash <(wget -qO - https://get.configserver.shop) --install
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --install
+    bash <(curl -sL https://get.configserver.shop)  --install
     ```
 
 <br />
@@ -150,7 +150,7 @@ Out of box, this script extracts CSF to the folder :aetherx-axd-folder: `csf`, a
 === ":aetherx-axs-command: Command"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install --folder csf-folder
+    bash <(wget -qO - https://get.configserver.shop) --install --folder csf-folder
     ```
 
 <br />
@@ -164,13 +164,13 @@ Downloads the latest version of CSF to your local machine as the file `csf.zip` 
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install --dryrun
+    bash <(wget -qO - https://get.configserver.shop) --install --dryrun
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --install --dryrun
+    bash <(curl -sL https://get.configserver.shop)  --install --dryrun
     ```
 
 <br />
@@ -180,7 +180,7 @@ Out of box, this script extracts CSF to the folder :aetherx-axd-folder: `csf`, a
 === ":aetherx-axs-command: Command"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install --folder csf-folder --dryrun
+    bash <(wget -qO - https://get.configserver.shop) --install --folder csf-folder --dryrun
     ```
 
 <br />
@@ -194,13 +194,13 @@ Does not download or extract CSF. Installs an existing local copy of CSF contain
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install-only
+    bash <(wget -qO - https://get.configserver.shop) --install-only
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --install-only
+    bash <(curl -sL https://get.configserver.shop)  --install-only
     ```
 
 <br />
@@ -210,7 +210,7 @@ Out of box, this script looks for the install file :aetherx-axd-file: `csf/insta
 === ":aetherx-axs-command: Command"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install-only --folder csf-folder
+    bash <(wget -qO - https://get.configserver.shop) --install-only --folder csf-folder
     ```
 
 <br />
@@ -224,13 +224,13 @@ Does a dry-run installs on an existing local copy of CSF contained within the fo
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install-only --dryrun
+    bash <(wget -qO - https://get.configserver.shop) --install-only --dryrun
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --install-only --dryrun
+    bash <(curl -sL https://get.configserver.shop)  --install-only --dryrun
     ```
 
 <br />
@@ -240,7 +240,7 @@ Out of box, this script looks for the install file :aetherx-axd-file: `csf/insta
 === ":aetherx-axs-command: Command"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --install-only --folder csf-folder --dryrun
+    bash <(wget -qO - https://get.configserver.shop) --install-only --folder csf-folder --dryrun
     ```
 
 <br />
@@ -254,13 +254,13 @@ Removes any existing `.zip` and `.tgz` files, removes local :aetherx-axd-folder:
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --clean
+    bash <(wget -qO - https://get.configserver.shop) --clean
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --clean
+    bash <(curl -sL https://get.configserver.shop)  --clean
     ```
 
 <br />
@@ -276,13 +276,13 @@ You can skip the re-name to :aetherx-axd-file: `csf.zip/tgz` and preseve the ori
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev) --preserve-name
+    bash <(wget -qO - https://get.configserver.shop) --preserve-name
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    bash <(curl -sL https://get.configserver.dev)  --preserve-name
+    bash <(curl -sL https://get.configserver.shop)  --preserve-name
     ```
 
 <br />
@@ -294,7 +294,7 @@ We have provided examples of what each command does:
     Running this command will download the latest CSF release, and name the archive file `csf.zip` or `csf.tgz`.
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev)
+    bash <(wget -qO - https://get.configserver.shop)
     ```
 
 === ":aetherx-axs-toggle-on: With Parameter"
@@ -302,7 +302,7 @@ We have provided examples of what each command does:
     Running this command will download the latest CSF release, and name the archive file `csf-firewall-vXX.XX.zip` or `csf-firewall-vXX.XX.tgz`.
 
     ``` shell
-    bash <(wget -qO - https://get.configserver.dev)  --preserve-name
+    bash <(wget -qO - https://get.configserver.shop)  --preserve-name
     ```
 
 <br />
@@ -313,7 +313,7 @@ We have provided examples of what each command does:
 
 ## Arguments
 
-The [get.sh](https://get.configserver.dev) script includes numerous arguments that can be passed to expand the functionality. The available arguments are listed below.
+The [get.sh](https://get.configserver.shop) script includes numerous arguments that can be passed to expand the functionality. The available arguments are listed below.
 
 <br />
 
@@ -379,7 +379,7 @@ Removes any `csf.zip` or `csf.tgz` files lintering within the folder. Also remov
 ### Help
 <!-- md:version stable-15.10 --> <!-- md:fileDownload https://raw.githubusercontent.com/Aetherinox/csf-firewall/main/get.sh -->  <!-- md:source get.sh --> <!-- md:command `-h,  --help` --> 
 
-Shows the help menu for the [get.sh](https://get.configserver.dev) script. Performs no other actions.
+Shows the help menu for the [get.sh](https://get.configserver.shop) script. Performs no other actions.
 
 <br />
 <br />
@@ -387,7 +387,7 @@ Shows the help menu for the [get.sh](https://get.configserver.dev) script. Perfo
 ### Version
 <!-- md:version stable-15.10 --> <!-- md:fileDownload https://raw.githubusercontent.com/Aetherinox/csf-firewall/main/get.sh -->  <!-- md:source get.sh --> <!-- md:command `-v,  --version` --> 
 
-Shows the current version of the [get.sh](https://get.configserver.dev) script being used.
+Shows the current version of the [get.sh](https://get.configserver.shop) script being used.
 
 <br />
 
@@ -397,7 +397,7 @@ Shows the current version of the [get.sh](https://get.configserver.dev) script b
 
 ## Source Code
 
-The source code for [get.configserver.dev](https://get.configserver.dev) can be found within the official CSF repository below:
+The source code for [get.configserver.shop](https://get.configserver.shop) can be found within the official CSF repository below:
 
 <div class="grid cards" markdown>
 

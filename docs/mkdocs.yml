@@ -218,19 +218,19 @@ extra:
         new: New Addition
     social:
         - icon: aetherx/axs/download
-          link: https://download.configserver.dev
+          link: https://download.configserver.shop
           name: Download CSF
         - icon: aetherx/axs/block-brick-fire
-          link: https://blocklist.configserver.dev
+          link: https://blocklist.configserver.shop
           name: Service › Blocklists
         - icon: aetherx/axb/github-alt
-          link: https://tickets.configserver.dev
+          link: https://tickets.configserver.shop
           name: Submit Issue / Ticket
         - icon: fontawesome/brands/github
           link: https://github.com/Aetherinox/csf-firewall
           name: View Github Repo
         - icon: aetherx/axb/discord
-          link: https://discord.configserver.dev
+          link: https://discord.configserver.shop
           name: Discord
         - icon: aetherx/axs/heart
           link: https://buymeacoffee.com/aetherinox
@@ -297,9 +297,9 @@ nav:
                 - Structure: 'usage/cheatsheet/structure.md'
     - Services:
             - services/index.md
-            - blocklist.configserver.dev: 'services/blocklist.configserver.md'
-            - download.configserver.dev: 'services/download.configserver.md'
-            - get.configserver.dev: 'services/get.configserver.md'
+            - blocklist.configserver.shop: 'services/blocklist.configserver.md'
+            - download.configserver.shop: 'services/download.configserver.md'
+            - get.configserver.shop: 'services/get.configserver.md'
     - Changelog: 'about/changelog.md'
     - Insiders:
           - insiders/index.md
@@ -309,8 +309,8 @@ nav:
               - Disable: insiders/disable.md
     - Blog:
         - blog/index.md
-    - Discord: 'https://discord.configserver.dev'
-    - Create Ticket: 'https://tickets.configserver.dev'
+    - Discord: 'https://discord.configserver.shop'
+    - Create Ticket: 'https://tickets.configserver.shop'
     - Sponsor: 'https://buymeacoffee.com/aetherinox'
 
 # #

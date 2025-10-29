@@ -35,7 +35,7 @@ A list of the most important changes are listed below.
 
 ### Fix Webmin Log Textbox Height
 
-Release [v15.03](https://docs.configserver.dev/blog/2025/release-v1503/) introduced a complete rewrite of the `csfajaxtail.js` file, which handles log viewing within CSF. However, this update inadvertently caused a display issue where log textboxes were rendered only a few pixels tall.
+Release [v15.03](https://docs.configserver.shop/blog/2025/release-v1503/) introduced a complete rewrite of the `csfajaxtail.js` file, which handles log viewing within CSF. However, this update inadvertently caused a display issue where log textboxes were rendered only a few pixels tall.
 
 Version `v15.04` resolves this issue and adds support for vertical resizing of log windows.
 

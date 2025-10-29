@@ -1,10 +1,10 @@
 <?php
 /*
-    @app                ConfigServer Firewall & Security (CSF)
+    @app                Correo's Security & Firewall (CSF)
                         Login Failure Daemon (LFD)
-    @website            https://configserver.dev
-    @docs               https://docs.configserver.dev
-    @download           https://download.configserver.dev
+    @website            https://configserver.shop
+    @docs               https://docs.configserver.shop
+    @download           https://download.configserver.shop
     @repo               https://github.com/Aetherinox/csf-firewall
     @copyright          Copyright (C) 2025-2026 Aetherinox
                         Copyright (C) 2006-2025 Jonathan Michaelson

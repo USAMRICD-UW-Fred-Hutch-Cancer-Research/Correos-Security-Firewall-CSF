@@ -1,10 +1,10 @@
 #!/usr/bin/perl
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -124,7 +124,7 @@ my $GET;
 # #
 #   download servers / structure
 #   
-#   https://download.configserver.dev
+#   https://download.configserver.shop
 #       csf
 #           changelog.txt
 #           install.txt
@@ -142,7 +142,7 @@ my $GET;
 # #
 
 my @downloadservers = (
-        "https://download.configserver.dev"
+        "https://download.configserver.shop"
     #   "https://raw.githubusercontent.com/Aetherinox/csf-firewall/main/api/templates/versions"
     # , "https://download.configserver.com"
 );

@@ -1,9 +1,9 @@
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -470,10 +470,10 @@ sub getdownloadserver
 			# #
 			#	whitelist of acceptable subdomains
 			#		raw.github.com
-			#		download.configserver.dev
-			#		cdn.configserver.dev
-			#		csf.configserver.dev
-			#		update.configserver.dev
+			#		download.configserver.shop
+			#		cdn.configserver.shop
+			#		csf.configserver.shop
+			#		update.configserver.shop
 			# #
 
 			if ($line =~ /^(?:raw|download|cdn|csf|update)\./) 
@@ -500,7 +500,7 @@ sub getdownloadserver
 
 	if ($chosen eq "")
 	{
-		$chosen = "download.configserver.dev"
+		$chosen = "download.configserver.shop"
 	}
 
 	return $chosen;

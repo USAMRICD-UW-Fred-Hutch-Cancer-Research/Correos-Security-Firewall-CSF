@@ -104,20 +104,20 @@ If you do not have the latest vesion of CSF downloaded; grab a copy with one of 
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -258,7 +258,7 @@ After the installation completes, you’ll see output similar to the following i
       [19126] ( INFO): 
       [19126] ( INFO): 2. Navigate to the following url using the address bar and enter this one-time autologin url:
       [19126] ( INFO): 
-      [19126] ( INFO): https://cp.configserver.dev:2087/cpsess4927138456/login/?session=root%x7rGd9PLkWqz3YFb2t%3acreate_user_session%f8b47c19a5de91b03ce6f20dbb1847e9d2
+      [19126] ( INFO): https://cp.configserver.shop:2087/cpsess4927138456/login/?session=root%x7rGd9PLkWqz3YFb2t%3acreate_user_session%f8b47c19a5de91b03ce6f20dbb1847e9d2
       ```
 
 <br />
@@ -365,20 +365,20 @@ If you do not have the latest vesion of CSF downloaded; grab a copy with one of 
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -658,20 +658,20 @@ We are ready to install CSF, which you should already have downloaded to your sy
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -886,11 +886,11 @@ Ensure you have InterWorx installed. If not, download the installer script:
       this script, fix the error and re-start the script.
 
       STATUS: Checking Hostname
-      The hostname 'configserver.dev' is valid.
+      The hostname 'configserver.shop' is valid.
 
       Details of this installation will be logged in iworx-install.log
 
-      HOSTNAME   : configserver.dev
+      HOSTNAME   : configserver.shop
       TARGET     : CentOS Linux release 7.9.2009 (Core)
       PLATFORM   : GNU/Linux
       PROCESSOR  : x86_64
@@ -943,8 +943,8 @@ You should be greeted with a InterWorx authentication page. Provide a valid e-ma
 
 Once you input the information asked, InterWorx will also ask you to provide valid **nameservers**. For our docs, we will provide:
 
-- `ns1.configserver.dev`
-- `ns2.configserver.dev`
+- `ns1.configserver.shop`
+- `ns2.configserver.shop`
 
 <br />
 
@@ -1493,20 +1493,20 @@ We are ready to install CSF, which you should already have downloaded to your sy
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -1713,8 +1713,8 @@ We did a very basic configuration:
 - [x] Additional Repository: `Yes`
 - [x] File System Quota: `No`
 - [x] DB : `None`
-- [x] Hostname: `panel.configserver.dev`
-- [x] Email: `user@configserver.dev`
+- [x] Hostname: `panel.configserver.shop`
+- [x] Email: `user@configserver.shop`
 - [x] Port: `5463`
 - [x] Password: `*********************************`
 
@@ -1763,7 +1763,7 @@ Next, we must use the command we generated earlier:
        --quota no \
        --mysql no \
        --postgresql no \
-       --hostname panel.configserver.dev \
+       --hostname panel.configserver.shop \
        --email user@email.com \
        --port 5463 \
        --password *********************************
@@ -1889,20 +1889,20 @@ We are ready to install CSF, which you should already have downloaded to your sy
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -2471,20 +2471,20 @@ We are ready to install CSF, which you should already have downloaded to your sy
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -2721,20 +2721,20 @@ We are ready to install or update CSF, which you should already have downloaded 
 
     ```shell
     # Using wget (tgz)
-    wget https://download.configserver.dev/csf.tgz
+    wget https://download.configserver.shop/csf.tgz
 
     # Using curl (tgz)
-    curl -O https://download.configserver.dev/csf.tgz
+    curl -O https://download.configserver.shop/csf.tgz
     ```
 
 === ":aetherx-axs-file-zip: .zip"
 
     ```shell
     # Using wget (zip)
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
 
     # Using curl (zip)
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />

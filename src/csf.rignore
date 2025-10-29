@@ -1,9 +1,9 @@
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -36,14 +36,14 @@
 #   otherwise permitted)
 #   
 #   For example, the following are all valid entries:
-#       www.configserver.dev
-#       .configserver.dev
+#       www.configserver.shop
+#       .configserver.shop
 #       .googlebot.com
 #       .crawl.yahoo.net
 #       .search.msn.com
 #   
 #   The following are NOT valid entries:
-#       *.configserver.dev
+#       *.configserver.shop
 #       *google.com
 #       google.com (unless the lookup is EXACTLY google.com with no subdomain
 #   

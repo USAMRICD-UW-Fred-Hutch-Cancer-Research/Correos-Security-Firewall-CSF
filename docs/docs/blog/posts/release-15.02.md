@@ -12,7 +12,7 @@ categories:
     - release-alpha
     - vestacp
     - cyberpanel
-    - download.configserver.dev
+    - download.configserver.shop
 description: >
     Details regarding CSF release v15.02
 title: >
@@ -126,15 +126,15 @@ RELEASE_ALPHA = "1"
 
 #### Download Service Updates
 
-Our [download.configserver.dev]() update service has been enhanced to now include alpha releases. You can view the latest version of an alpha release by opening your browser and going to:
+Our [download.configserver.shop]() update service has been enhanced to now include alpha releases. You can view the latest version of an alpha release by opening your browser and going to:
 
-- [https://download.configserver.dev/csf/version.txt?channel=alpha](https://download.configserver.dev/csf/version.txt?channel=alpha)
+- [https://download.configserver.shop/csf/version.txt?channel=alpha](https://download.configserver.shop/csf/version.txt?channel=alpha)
 
 <br />
 
 When you enable the `csf.conf` setting `RELEASE_ALPHA`, CSF will download new alpha releases from the url:
 
-- [https://download.configserver.dev/csf.tgz?channel=alpha](https://download.configserver.dev/csf.tgz?channel=alpha)
+- [https://download.configserver.shop/csf.tgz?channel=alpha](https://download.configserver.shop/csf.tgz?channel=alpha)
 
 <br />
 
@@ -175,7 +175,7 @@ This issue has been resolved, but there are some important considerations to not
 
 React-based VestaCP templates are now minified `.js` and `.css` files rather than simple PHP and HTML. This change makes it significantly more challenging to modify the header and re-add CSF to the navigation menu, especially given hashed filenames in the build process; which we want to preserve the integrity of.
 
-Rather than rebuilding the templates ourselves which seems like a drastic approach; I have provided instructions for users to manually integrate CSF into the VestaCP menu: [Add CSF to VestaCP Menu](https://docs.configserver.dev/install/install/#add-csf-to-vestacp-menu).
+Rather than rebuilding the templates ourselves which seems like a drastic approach; I have provided instructions for users to manually integrate CSF into the VestaCP menu: [Add CSF to VestaCP Menu](https://docs.configserver.shop/install/install/#add-csf-to-vestacp-menu).
 
 Ideally, this would be solved by adding a conditional menu item in the header template, but VestaCP has not seen updates in some time, which brings us to the next point.
 
@@ -228,7 +228,7 @@ The login interface, part of the original dark theme, has been restored.
 The update servers are now fully back online, restoring the same functionality as the original developer's website. A new help page has also been added to the download service for easier guidance:
 
 ```embed
-url:            https://download.configserver.dev/help
+url:            https://download.configserver.shop/help
 name:           Download Service › Help
 desc:           Shows a list of commands that can be utilized with the CSF download service
 image:          https://raw.githubusercontent.com/Aetherinox/csf-firewall/main/docs/images/logos/csf.png
@@ -246,7 +246,7 @@ Additionally, a few companies have reached out to offer services like reputation
 
 We have also added an official **Help** interface which shows examples of how to use the Download Service. You can view more information about it here:
 
-- [https://download.configserver.dev/help](https://download.configserver.dev/help)
+- [https://download.configserver.shop/help](https://download.configserver.shop/help)
 
 <br />
 
@@ -269,7 +269,7 @@ Pre/post script integration is now fully supported in CSF. Any existing scripts 
 Full documentation and usage instructions can be found here:
 
 ```embed
-url:            https://docs.configserver.dev/usage/prepost/
+url:            https://docs.configserver.shop/usage/prepost/
 name:           Docs › Pre & Post
 desc:           CSF includes dedicated directories where you can place custom Bash scripts to run at specific stages of the firewall’s startup process. 
 image:          https://raw.githubusercontent.com/Aetherinox/csf-firewall/main/docs/images/logos/csf.png

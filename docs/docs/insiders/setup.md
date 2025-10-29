@@ -75,7 +75,7 @@ This setting takes a simple ++0++ or ++1++ to define enabled or disabled.
 #       https://github.com/Aetherinox/csf-firewall
 #   
 #   You can also ask general questions on our Discord server:
-#       https://discord.configserver.dev
+#       https://discord.configserver.shop
 #   
 #   Restart CSF + LFD after setting these:
 #       sudo csf -ra

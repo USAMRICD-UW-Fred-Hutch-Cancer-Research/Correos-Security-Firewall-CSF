@@ -1,10 +1,10 @@
 #!/bin/sh
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -50,8 +50,8 @@ APP_NAME="ConfigServer Security & Firewall"
 APP_NAME_SHORT="CSF"
 APP_DESC="Robust linux iptables/nftables firewall"
 APP_REPO="https://github.com/aetherinox/csf-firewall"
-APP_LINK_DOCS="https://docs.configserver.dev"
-APP_LINK_DOWNLOAD="https://download.configserver.dev"
+APP_LINK_DOCS="https://docs.configserver.shop"
+APP_LINK_DOWNLOAD="https://download.configserver.shop"
 FILE_INSTALL_TXT="install.txt"
 
 # #

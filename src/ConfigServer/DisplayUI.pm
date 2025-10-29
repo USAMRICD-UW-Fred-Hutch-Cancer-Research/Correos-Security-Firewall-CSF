@@ -1,9 +1,9 @@
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -3543,11 +3543,11 @@ EOF
 		__				"<table class='table table-bordered table-striped'>\n";
 		__					"<thead><tr><th colspan='2'>Resources</th></tr></thead>";
 		__					"<tr><td><a href='https://github.com/aetherinox/csf-firewall' target='_blank' class='btn btn-default' style='width: 200px;'>Repository</a></td><td style='width:100%'>View our source code; submit issues to the developers</td></tr>\n";
-		__					"<tr><td><a href='https://docs.configserver.dev' target='_blank' class='btn btn-default' style='width: 200px;'>Documentation</a></td><td style='width:100%'>View the CSF documentation</td></tr>\n";
-		__					"<tr><td><a href='https://download.configserver.dev' target='_blank' class='btn btn-default' style='width: 200px;'>Download</a></td><td style='width:100%'>Manually download the latest version of CSF</td></tr>\n";
-		__					"<tr><td><a href='https://blocklist.configserver.dev/master.ipset' target='_blank' class='btn btn-default' style='width: 200px;'>Blocklist</a></td><td style='width:100%'>Utilize our blocklist service with <code>csf.blocklists</code> to restrict malicious traffic and bad actors</td></tr>\n";
-		__					"<tr><td><a href='https://discord.configserver.dev' target='_blank' class='btn btn-default' style='width: 200px;'>Discord</a></td><td style='width:100%'>Speak to others in the community, ask questions, share setups</td></tr>\n";
-		__					"<tr><td><a href='https://docs.configserver.dev/insiders' target='_blank' class='btn btn-default' style='width: 200px;'>Insiders</a></td><td style='width:100%'>Learn more about our insiders program</td></tr>\n";
+		__					"<tr><td><a href='https://docs.configserver.shop' target='_blank' class='btn btn-default' style='width: 200px;'>Documentation</a></td><td style='width:100%'>View the CSF documentation</td></tr>\n";
+		__					"<tr><td><a href='https://download.configserver.shop' target='_blank' class='btn btn-default' style='width: 200px;'>Download</a></td><td style='width:100%'>Manually download the latest version of CSF</td></tr>\n";
+		__					"<tr><td><a href='https://blocklist.configserver.shop/master.ipset' target='_blank' class='btn btn-default' style='width: 200px;'>Blocklist</a></td><td style='width:100%'>Utilize our blocklist service with <code>csf.blocklists</code> to restrict malicious traffic and bad actors</td></tr>\n";
+		__					"<tr><td><a href='https://discord.configserver.shop' target='_blank' class='btn btn-default' style='width: 200px;'>Discord</a></td><td style='width:100%'>Speak to others in the community, ask questions, share setups</td></tr>\n";
+		__					"<tr><td><a href='https://docs.configserver.shop/insiders' target='_blank' class='btn btn-default' style='width: 200px;'>Insiders</a></td><td style='width:100%'>Learn more about our insiders program</td></tr>\n";
 		__				"</table>\n";
 		__			"</form>\n";
 		__ 		"</div> <!-- end id='insiders' -->\n"; # end TAB id='insiders'
@@ -3565,17 +3565,17 @@ EOF
 		__						"We don’t believe in putting security behind a paywall because your safety shouldn’t depend on your wallet. The Insiders Program simply gives people a way to contribute to CSF by testing upcoming versions, keeping our lights on, and helping us catch bugs before a release rolls out to the public channel.\n";
 		__						"<br><br><strong>By sponsoring our project, you will receive the following:</strong>\n";
 		__						"<ul style='text-align:left;'>\n";
-		__							"<li><a href='https://docs.configserver.dev/insiders'>Insiders</a> access to ConfigServer Security and Firewall release channel</b></li>\n";
-		__							"<li><a href='https://discord.configserver.dev'>Discord</a> <b>Sponsor</b> role</li>\n";
-		__							"<li>Listed on our project <a href='https://docs.configserver.dev/insiders/sponsors/'>Sponsor</a> page</li>\n";
+		__							"<li><a href='https://docs.configserver.shop/insiders'>Insiders</a> access to ConfigServer Security and Firewall release channel</b></li>\n";
+		__							"<li><a href='https://discord.configserver.shop'>Discord</a> <b>Sponsor</b> role</li>\n";
+		__							"<li>Listed on our project <a href='https://docs.configserver.shop/insiders/sponsors/'>Sponsor</a> page</li>\n";
 		__							"<li>Tell us additional perks you'd like to see as a Sponsor</li>\n";
 		__							"<li>A huge thank you</li>\n";
 		__						"</ul>\n";
 		__					"</div>\n";
 		__					"<form action='$script' method='post'>\n";
 		__ 						"<table class='table table-bordered table-striped' style='margin-bottom:0px;'>\n";
-		__ 							"<tr><td><a href='https://docs.configserver.dev/insiders/sponsors/' target='_blank' class='btn btn-default' style='width: 200px;'>Sponsor Status</a></td><td style='width:100%'><div id='license-status' class='panel-body'>Checking license ... </div></td></tr>\n";
-		__ 							"<tr><td><a href='https://docs.configserver.dev/insiders/' target='_blank' class='btn btn-default' style='width: 200px;'>Insiders Channel</a></td><td style='width:100%'><div id='insiders-status' class='panel-body'>Checking status ... </div></td></tr>\n";
+		__ 							"<tr><td><a href='https://docs.configserver.shop/insiders/sponsors/' target='_blank' class='btn btn-default' style='width: 200px;'>Sponsor Status</a></td><td style='width:100%'><div id='license-status' class='panel-body'>Checking license ... </div></td></tr>\n";
+		__ 							"<tr><td><a href='https://docs.configserver.shop/insiders/' target='_blank' class='btn btn-default' style='width: 200px;'>Insiders Channel</a></td><td style='width:100%'><div id='insiders-status' class='panel-body'>Checking status ... </div></td></tr>\n";
 		__						"</table>\n";
 		__ 					"</form>\n";
 		__				"</div>\n";
@@ -3593,7 +3593,7 @@ print <<END_JS;
 (async function()
 {
     const license = '$sponsorLicense';
-    const url = 'https://license.configserver.dev/?license=' + license;
+    const url = 'https://license.configserver.shop/?license=' + license;
 
     try
 	{
@@ -3612,7 +3612,7 @@ print <<END_JS;
         }
 		else
 		{
-            licenseDiv.innerHTML = "<tr><td colspan='2'>❌ No sponsorship (" + ( data.error || 'unknown') + ")<br><div style='padding-top:10px;'><a href='https://docs.configserver.dev/insiders/sponsors/' target='_blank' class='btn btn-success'>Become a Sponsor</a></div></td></tr>";
+            licenseDiv.innerHTML = "<tr><td colspan='2'>❌ No sponsorship (" + ( data.error || 'unknown') + ")<br><div style='padding-top:10px;'><a href='https://docs.configserver.shop/insiders/sponsors/' target='_blank' class='btn btn-success'>Become a Sponsor</a></div></td></tr>";
         }
 
 		/*

@@ -1,9 +1,9 @@
 # #
-#   @app                ConfigServer Firewall & Security (CSF)
+#   @app                Correo's Security & Firewall (CSF)
 #                       Login Failure Daemon (LFD)
-#   @website            https://configserver.dev
-#   @docs               https://docs.configserver.dev
-#   @download           https://download.configserver.dev
+#   @website            https://configserver.shop
+#   @docs               https://docs.configserver.shop
+#   @download           https://download.configserver.shop
 #   @repo               https://github.com/Aetherinox/csf-firewall
 #   @copyright          Copyright (C) 2025-2026 Aetherinox
 #                       Copyright (C) 2006-2025 Jonathan Michaelson
@@ -613,8 +613,8 @@ tcp|out|d=80||u=99
 icmp|in|d=ping|s=44.33.22.11
 
 # TCP connections inbound to port 22 from Dynamic DNS address
-# www.configserver.dev (for use in csf.dyndns only)
-tcp|in|d=22|s=www.configserver.dev
+# www.configserver.shop (for use in csf.dyndns only)
+tcp|in|d=22|s=www.configserver.shop
 
 # TCP connections inbound to port 22,80,443 from IP 44.33.22.11
 d=22,80,443|s=44.33.22.11

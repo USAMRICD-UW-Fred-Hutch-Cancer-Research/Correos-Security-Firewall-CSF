@@ -1,13 +1,13 @@
 ---
-title: Advanced › Services › download.configserver.dev
+title: Advanced › Services › download.configserver.shop
 tags:
   - services
-  - download.configserver.dev
+  - download.configserver.shop
 ---
 
-# download.configserver.dev <!-- omit from toc -->
+# download.configserver.shop <!-- omit from toc -->
 
-The subdomain [download.configserver.dev](https://download.configserver.dev) provides a convenient way to download the latest version of CSF without needing to look up the name of the current release. Downloads can be accessed directly through your web browser, or from the command line using tools such as `wget` or `curl`. Below, we outline the basic usage to help you quickly obtain the latest version of CSF.
+The subdomain [download.configserver.shop](https://download.configserver.shop) provides a convenient way to download the latest version of CSF without needing to look up the name of the current release. Downloads can be accessed directly through your web browser, or from the command line using tools such as `wget` or `curl`. Below, we outline the basic usage to help you quickly obtain the latest version of CSF.
 
 This mirrors the service originally offered by the CSF developers, which was the standard method of obtaining fresh copies of CSF for many years. Our version works the same way, with a few additional features that are described in the [Advanced](#advanced-options) section.
 
@@ -40,15 +40,15 @@ This section explains how to utilize the CSF download service.
 
 ### Using Browser  <!-- omit from toc -->
 
-The simplest way to use this service is via your browser. Visit [https://download.configserver.dev](https://download.configserver.dev) to download the latest CSF as a `.zip` or `.tgz`, depending on the release.
+The simplest way to use this service is via your browser. Visit [https://download.configserver.shop](https://download.configserver.shop) to download the latest CSF as a `.zip` or `.tgz`, depending on the release.
 
 By default, all downloads are named `csf.ext`, making them easy to use in scripts without worrying about the version number.  
 
 If you do need the exact version of the release you downloaded:
 
 - Open the downloaded archive and check the `version.txt` file, OR;
-- Append `?name=preserve` to the URL, for example: [https://download.configserver.dev?name=preserve](https://download.configserver.dev?name=preserve), OR;
-- Query our api, and get a json response which contains the latest version number by using `https://download.configserver.dev/?output=json`
+- Append `?name=preserve` to the URL, for example: [https://download.configserver.shop?name=preserve](https://download.configserver.shop?name=preserve), OR;
+- Query our api, and get a json response which contains the latest version number by using `https://download.configserver.shop/?output=json`
 
 <br />
 <br />
@@ -75,13 +75,13 @@ When downloading CSF from the CLI, you can append `csf.zip` or `csf.tgz` to the 
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    wget https://download.configserver.dev/csf.zip
+    wget https://download.configserver.shop/csf.zip
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    curl -O https://download.configserver.dev/csf.zip
+    curl -O https://download.configserver.shop/csf.zip
     ```
 
 <br />
@@ -94,7 +94,7 @@ You can also use `wget` or `curl` without adding a filename. In this mode, the s
 
     If you want to use curl or wget to download the latest version of CSF, but **not** place the filename on the end of the url; please read these notes.
 
-    When using `wget` or `curl` with our download service without explicitly including a filename (for example, https://download.configserver.dev/ instead of https://download.configserver.dev/csf.zip), the server decides which file to serve from the latest release. To help users, it automatically provides the correct archive (.zip or .tgz) and sends a `Content-Disposition` header with the proper filename.
+    When using `wget` or `curl` with our download service without explicitly including a filename (for example, https://download.configserver.shop/ instead of https://download.configserver.shop/csf.zip), the server decides which file to serve from the latest release. To help users, it automatically provides the correct archive (.zip or .tgz) and sends a `Content-Disposition` header with the proper filename.
 
     By default, `wget` will ignore this header unless you pass `--content-disposition`. Without it, the file is saved under a generic name like `index.html`, even though the correct archive was downloaded. 
 
@@ -111,13 +111,13 @@ You can also use `wget` or `curl` without adding a filename. In this mode, the s
 === ":aetherx-axs-box: wget"
 
     ``` shell
-    wget --content-disposition https://download.configserver.dev/
+    wget --content-disposition https://download.configserver.shop/
     ```
 
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    curl -JLO https://download.configserver.dev/
+    curl -JLO https://download.configserver.shop/
     ```
 
 <br />
@@ -142,7 +142,7 @@ Our API provides a structured JSON response, which can be used in your own scrip
 
 To request a JSON response from our API, append `?output=json` to the end of your URL, for example:
 
-- https://download.configserver.dev/?output=json
+- https://download.configserver.shop/?output=json
 
 <br />
 
@@ -157,7 +157,7 @@ You can use our API to download the latest CSF release directly. This command re
 === ":aetherx-axs-box: curl"
 
     ``` shell
-    curl -s "https://download.configserver.dev/?output=json" \
+    curl -s "https://download.configserver.shop/?output=json" \
       | jq -r '.download_url + " " + .file_name' \
       | xargs -n2 sh -c 'curl -L -o "$1" "$0"'
     ```
@@ -165,7 +165,7 @@ You can use our API to download the latest CSF release directly. This command re
 === ":aetherx-axs-box: wget + curl"
 
     ``` shell
-    eval $(curl -s "https://download.configserver.dev/?output=json" | \
+    eval $(curl -s "https://download.configserver.shop/?output=json" | \
       jq -r '"wget -O \(.file_name) \(.download_url)"') 
     ```
 
@@ -181,7 +181,7 @@ If you just need the direct URL for the latest release, you can pull it from the
 === ":aetherx-axd-command: Command"
 
       ```shell
-      curl -s "https://download.configserver.dev/?output=json" | jq -r '.download_url'
+      curl -s "https://download.configserver.shop/?output=json" | jq -r '.download_url'
       ```
 
 === ":aetherx-axs-square-terminal: Output"
@@ -198,7 +198,7 @@ If you just need the direct URL for the latest release, you can pull it from the
 
 By default, the download service fetches the latest CSF release and renames it to `csf.zip` or `csf.tgz`.  If you prefer, you can keep the original release name, such as `csf-firewall-vXX.XX.zip` or `csf-firewall-vXX.XX.tar` by appending `?name=preserve` to your url, such as:
 
-- https://download.configserver.dev/?name=preserve
+- https://download.configserver.shop/?name=preserve
 
 <br />
 <br />

@@ -5,7 +5,7 @@ ChangeLog:
         Add Privacy Policy to CSF.
 
         Add Discord server
-        https://discord.configserver.dev
+        https://discord.configserver.shop
 
         Add "Insiders" releases.
 
@@ -99,11 +99,11 @@ ChangeLog:
 15.01 - First version released by Aetherinox
         https://github.com/Aetherinox/csf-firewall
 
-        Registered new domain https://configserver.dev
+        Registered new domain https://configserver.shop
 
-        Added new blocklist service at https://blocklist.configserver.dev
+        Added new blocklist service at https://blocklist.configserver.shop
 
-        Bring new update server online at https://download.configserver.dev
+        Bring new update server online at https://download.configserver.shop
 
         Changed csf update server code to point to new csf domain
 
@@ -1843,7 +1843,7 @@ ChangeLog:
         instead of HTTP::Tiny
 
         If URLGET set to use LWP, csf will perform upgrades over SSL to
-        https://download.configserver.dev
+        https://download.configserver.shop
 
         Added check for URLGET to Server Check
 
@@ -1966,7 +1966,7 @@ ChangeLog:
         Modified integrated UI to display die errors to browser
 
         Modified X_ARF report to use a self-published schema:
-        https://download.configserver.dev/schema/abuse_login-attack_0.2.json
+        https://download.configserver.shop/schema/abuse_login-attack_0.2.json
 
         Modified X_ARF to lowercase the Source-Type field
 
@@ -1983,7 +1983,7 @@ ChangeLog:
         Fixed issue with temporary allow/deny not applying individual port
         rules for outgoing connections
 
-7.14  - Updated scripts to use download.configserver.dev
+7.14  - Updated scripts to use download.configserver.shop
 
 7.13  - Fixed issue with temporary allow/deny when issued through the UI
 
@@ -3534,7 +3534,7 @@ ChangeLog:
         Added 'exe:/usr/bin/postgres' to the cPanel csf.pignore for new
         installations
 
-        Added retry timeout in WHM UI for checking configserver.dev for
+        Added retry timeout in WHM UI for checking configserver.shop for
         new version information (to avoid repeated hangs when unreachable)
 
         Fixed LF_PERMBLOCK issue that flushed all temporary IP blocks, not
